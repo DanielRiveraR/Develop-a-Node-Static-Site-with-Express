@@ -1,0 +1,71 @@
+{
+    "projects": [
+        {
+            "id":"0",
+            "project_name":"Random quote generator",
+            "description":"This is an app that displays a version of the famous random quotes each time the user clicks a button. Users will see quotes from prominent historical figures, artists, scientists, celebrities, etc.",
+            "technologies":["HTML", "CSS" ,"Javascript"],
+            "live_link":"https://danielriverar.github.io/Random-Quote-Generator/",
+            "github_link":"https://github.com/DanielRiveraR/Random-Quote-Generator",
+            "image_urls":[
+                "/static/img/quotes/1.png",
+                "/static/img/quotes/2.png",
+                "/static/img/quotes/3.png"
+            ]
+        },
+        {
+            "id":"1",
+            "project_name":"Word guessing game",
+            "description":"This app is a browser version of 'Wheel of Success', a word guessing game where players will click letters from an onscreen keyboard to try to guess a random phrase.",
+            "technologies":["HTML", "CSS", "Javascript"],
+            "live_link":"https://danielriverar.github.io/Word-Guessing-Game/",
+            "github_link":"https://github.com/DanielRiveraR/Word-Guessing-Game",
+            "image_urls":[
+                "/static/img/wheel/1.png",
+                "/static/img/wheel/2.png",
+                "/static/img/wheel/3.png",
+                "/static/img/wheel/4.png"
+            ]
+        },
+        {
+            "id":"2",
+            "project_name":"Data pagination and filtering.",
+            "description":"In this project, i use a common web development technique known as 'pagination' to enhance a web page's usability.",
+            "technologies":["HTML", "CSS", "Javascript"],
+            "live_link":"https://danielriverar.github.io/Data-Pagination-and-Filtering/",
+            "github_link":"https://github.com/DanielRiveraR/Data-Pagination-and-Filtering",
+            "image_urls":[
+                "/static/img/data_pag/1.png",
+                "/static/img/data_pag/2.png",
+                "/static/img/data_pag/3.png",
+                "/static/img/data_pag/4.png"
+            ]
+        },
+        {
+            "id":"3",
+            "project_name":"Interactive Registration Form",
+            "description":"In this project i make a form more user-friendly by adding customized and conditional behavior and interactivity and validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
+            "technologies":["HTML", "CSS", "Javascript"],
+            "live_link":"https://danielriverar.github.io/Interactive-Registration-Form/",
+            "github_link":"https://github.com/DanielRiveraR/Interactive-Registration-Form",
+            "image_urls":[
+                "/static/img/form_validation/1.png",
+                "/static/img/form_validation/2.png",
+                "/static/img/form_validation/3.png"
+            ]
+        },
+        {
+            "id":"4",
+            "project_name":"Connect to and Use a Public API.",
+            "description":"This app was made for a fictional company called 'Awesome Startup', a distributed company with remote employees working all over the world. The app request a JSON object from the API and parse the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee's image or name will open a modal window with more detailed information, such as the employee's birthday and address.",
+            "technologies":["HTML", "CSS", "Javascript", ""],
+            "live_link":"https://danielriverar.github.io/Connect-to-and-Use-a-Public-API/",
+            "github_link":"https://github.com/DanielRiveraR/Connect-to-and-Use-a-Public-API",
+            "image_urls":[
+                "/static/img/api/1.png",
+                "/static/img/api/2.png",
+                "/static/img/api/3.png"
+            ]
+        }
+    ]
+}

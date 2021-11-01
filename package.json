@@ -1,14 +1,22 @@
 {
-  "name": "davidrivera",
+  "name": "develop-a-node-static-site-with-express",
   "version": "1.0.0",
-  "description": "techdegree project 9",
-  "main": "index.js",
+  "description": "Techdegree project 9",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielRiveraR/Develop-a-Node-Static-Site-with-Express.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielRiveraR/Develop-a-Node-Static-Site-with-Express/issues"
+  },
+  "homepage": "https://github.com/DanielRiveraR/Develop-a-Node-Static-Site-with-Express#readme",
   "dependencies": {
     "express": "^4.17.1"
   }

@@ -20,18 +20,27 @@ app.get('/projects/:id',(req,res,next)=> {
     } else {
         const err = new Error();
         err.status = 404;
-        err.message = `Ooops! Looks that the project you request doesn't exist`;
+        err.message = "Ooops!, Looks that the project you request doesn't exist";
+        console.log(err.message, err.status);
         next(err);
     }
 });
 
 app.use((req,res,next)=> {
-    console.log('404 error handler called')
-    const err = new Error();
-    err.status = 404;
-    err.message = `Ooops! Looks that the page you request doesn't exist`;
-    next(err);
+    console.log('404 error handler called');
+    res.status('not-found');
+    
 });
+
+app.use((err, req, res next) => {
+
+    if (err.status === 404) {
+        res.status(404).render('not-found', { err });
+    } else {
+        err.message = err.message || "Ooops!, it looks like somethinf went wrong on the server.";
+        res.status = (err.status || 500).render('error', { err });
+    }
+}); 
 
 // app.use((err, req, res next) => {
 //     if (err) {

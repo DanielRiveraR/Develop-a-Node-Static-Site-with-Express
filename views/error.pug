@@ -1,1 +1,12 @@
 extends layout.pug
+
+block content
+  div.error
+        h1= `Server Error`
+        h2= `Error status code: ${err.status} - Server Error`
+        p= `Friendly error message: ${err.message}`  
+
+    
+  a.Backhome(href='/') Home  
+
+  pre= err.stack          
